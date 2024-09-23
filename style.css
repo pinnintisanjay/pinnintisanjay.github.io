@@ -376,17 +376,17 @@
         display: block;
     }.skills{
             position: relative;
-            top: 40rem;
+            top: 25rem;
     }.skills-content {
         margin-top: 20%;
     }.projects{
         position: relative;
-        top: 45rem;
+        top: 30rem;
     } #dis h3{
         padding-left: 10px;
     }.contact{
         position: relative;
-        top: 30rem;
+        top: 20rem;
     }#chat {
         left: 20%;
     }.contact-icons {
