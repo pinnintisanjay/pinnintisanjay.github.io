@@ -369,24 +369,24 @@
         font-size: 45px;
     }.inner{
         position: relative;
-        top: 30rem;
+        top: 40rem;
     }#contact{
         left: 100px;
     }.tcontainer {
         display: block;
     }.skills{
             position: relative;
-            top: 25rem;
+            top: 35rem;
     }.skills-content {
         margin-top: 20%;
     }.projects{
         position: relative;
-        top: 30rem;
+        top: 37rem;
     } #dis h3{
         padding-left: 10px;
     }.contact{
         position: relative;
-        top: 20rem;
+        top: 30rem;
     }#chat {
         left: 20%;
     }.contact-icons {
