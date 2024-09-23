@@ -23,6 +23,8 @@
 }header.sticky{
     background-color: black;
     border-bottom: 1px solid #0e1630;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000;
 }#list{
     list-style: none;
     display: flex;
@@ -90,7 +92,7 @@
 }body{
     background-color: rgb(7, 7, 24);
 }#profile{
-    height: 464px;
+    height: 400px;
     width: 400px;
     margin-left: 40px;
     margin-top: 10%;
@@ -145,6 +147,7 @@
 }.inner{
     text-align: center;
     margin-top: 10%;
+    
     
 }.tcontainer{
     display: grid;
@@ -341,4 +344,54 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+
+@media (max-width: 850px) {
+    
+    #list{
+        visibility: hidden;
+    }
+    #home-details{
+        margin-top: 50%;
+    }
+    .about{
+        display: block;
+        
+    }
+    #profile{
+        margin-left: 0px;
+    }
+    #profile-pic {
+        height: 370px;
+        width: 370px;
+    }#one,.main-text h3,#myprojects h1,.contact-text h1{
+        font-size: 45px;
+    }.inner{
+        position: relative;
+        top:40rem;
+    }#contact{
+        left: 100px;
+    }.tcontainer {
+        display: block;
+    }.skills{
+            position: relative;
+            top: 40rem;
+    }.skills-content {
+        margin-top: 20%;
+    }.projects{
+        position: relative;
+        top: 40rem;
+    } #dis h3{
+        padding-left: 10px;
+    }.contact{
+        position: relative;
+        top: 30rem;
+    }#chat {
+        left: 20%;
+    }.contact-icons {
+        left: 14%;
+    }#logo{
+        font-size: 2.5rem;
+    }
 }
